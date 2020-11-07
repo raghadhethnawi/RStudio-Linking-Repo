@@ -13,6 +13,32 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
+```{r}
+```
+
+
+```{r}
+print("Hello World!")
+print("R is the best!")
+```
+
+
+
+# Header level 1
+## Header level 2
+### Header level 3...
+
+- This  
+- is  
+- my  
+- first  
+- attempt  
+- to  
+- create  
+- a list  
+- in R  
+
+
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
